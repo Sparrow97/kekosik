@@ -3,6 +3,6 @@
 
 SCENARIO("function: test", "[testing]") {
 	int a = 5;
-	REQUIRE(foo(a) == -1);
-	REQUIRE(foo(2) == 1);
+	REQUIRE(function(a) == -1);
+	REQUIRE(function(2) == 1);
 }
